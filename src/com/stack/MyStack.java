@@ -18,10 +18,11 @@ public class MyStack {
 		/* UC:2
 		 * Ability to peak and pop from the Stack till it is empty
 		 */
-		System.out.println(stack.peek());
+		System.out.println(stack.peek());//56
 		while(!stack.isEmpty()) {
-			System.out.println(stack.pop());
+			System.out.println(stack.pop());// 56 30 70
 		}
+		System.out.println(stack);//[]
 		
 	}
 }
