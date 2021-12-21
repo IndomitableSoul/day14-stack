@@ -25,8 +25,9 @@ public class MyQueue{
 		queue.list.add(30);
 		queue.list.add(70);
 		queue.list.add(56);
-		System.out.println(queue.list);
+		System.out.println(queue.list);//[30, 70, 56]
 		queue.dequeue();
-		System.out.println(queue.list);
+		System.out.println(queue.list);//[70, 56]
+
 	}
 }
