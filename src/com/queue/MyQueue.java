@@ -22,9 +22,12 @@ public class MyQueue{
 	}
 	public static void main(String[] args) {
 		MyQueue queue =  new MyQueue();
-		queue.list.add(30);
-		queue.list.add(70);
-		queue.list.add(56);
+//		queue.list.add(30);
+//		queue.list.add(70);
+//		queue.list.add(56);
+		queue.enqueue(30);
+		queue.enqueue(70);
+		queue.enqueue(56);
 		System.out.println(queue.list);//[30, 70, 56]
 		queue.dequeue();
 		System.out.println(queue.list);//[70, 56]

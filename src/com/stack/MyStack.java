@@ -14,7 +14,7 @@ public class MyStack {
 		stack.push(70);
 		stack.push(30);
 		stack.push(56);
-		
+		System.out.println("Items in stack are: " + stack);
 		/* UC:2
 		 * Ability to peak and pop from the Stack till it is empty
 		 */
